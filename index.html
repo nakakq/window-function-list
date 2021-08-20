@@ -145,7 +145,11 @@
                 },
                 created: function () {
                     Plot.init();
-                    FFT.init(this.length);
+                    let length = this.length;
+                    Module.onRuntimeInitialized = function () {
+                        // console.log("wasm FFT loaded!");
+                        FFT.init(length);
+                    };
                 },
                 methods: {
                     update: function () {
