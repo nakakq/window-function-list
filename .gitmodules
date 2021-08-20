@@ -1,0 +1,3 @@
+[submodule "bessel"]
+	path = bessel
+	url = https://github.com/SheetJS/bessel
