@@ -1,8 +1,12 @@
 
 # Window Function List
 
-A collection of window functions with interactive viewers and documents for them.
+An interactive collection of window functions.
 See [the hosted page](https://nakakq.github.io/window-function-list/).
+
+- [x] Window control parameter
+- [x] Spectrum view
+- [ ] Documentation for window
 
 ## License
 
